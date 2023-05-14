@@ -1,0 +1,44 @@
+body {
+    background: #a0b8fc;
+}
+
+.container {
+    max-width: 400px;
+}
+
+.search i {
+    position: absolute;
+}
+
+.search {
+    position: relative;
+}
+
+.icon {
+    padding: 10px;
+    right: 0;
+}
+
+.input-field {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="text"]:focus {
+    color: #fff;
+    border: none;
+    background: rgba(250, 89, 89, 0.3);
+    max-width: 400px;
+}
+
+.todos li {
+    background: #ad9ffd;
+}
+
+.delete {
+    cursor: pointer;
+}
+
+.filtered {
+    display: none !important;
+}
